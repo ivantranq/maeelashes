@@ -21,7 +21,7 @@
             <li class="navbar__link">
               <a href=""> Home </a>
             </li>
-            <li class="navbar__link"><a href="#about"></a>About</li>
+            <li class="navbar__link"><a href="#about">About</a></li>
             <li class="navbar__link"><a href="#services">Services</a></li>
             <li class="navbar__link"><a href="#booking">Booking</a></li>
             <li class="navbar__link"><a href="#contact">Contact</a></li>
@@ -55,11 +55,6 @@
                   </button>
                 </a>
               </div>
-              <div class="landing__desc--links">
-                <div class="landing__desc--link">
-                  <i class="fa-brands fa-instagram"></i>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -79,22 +74,37 @@
           </p>
           <div class="about__desc--imgs">
             <figure class="about__img--wrapper">
-              <img class="about__img about__img--1" src="./assets/about__img-1.jpg" alt="" />
+              <img
+                class="about__img about__img--1"
+                src="./assets/about__img-1.jpg"
+                alt=""
+              />
             </figure>
             <figure class="about__img--wrapper">
-              <img class="about__img about__img--2" src="./assets/about__img-2.jpg" alt="" />
+              <img
+                class="about__img about__img--2"
+                src="./assets/about__img-2.jpg"
+                alt=""
+              />
             </figure>
           </div>
         </div>
       </div>
     </section>
     <section id="services">
-      <div class="container">
-        <figure class="services__img--wrapper"></figure>
+      <div class="container services__container">
+        <figure class="services__img--wrapper">
+          <img class="services__img" src="./assets/services__img.jpg" alt="" />
+          <img
+            src="./assets/services__img--2.jpg"
+            alt=""
+            class="services__img"
+          />
+        </figure>
         <div class="services__desc">
-          <h1 class="services__desc--heading">Services Available</h1>
+          <h1 class="services__desc--heading">Our Services</h1>
           <div class="services__desc--info">
-            <ul class="serviced__list">
+            <ul class="services__list">
               <li>Volume Set</li>
               <li>Wispy Set</li>
               <li>Mega Set</li>
@@ -107,6 +117,9 @@
               <li>$N/A</li>
             </ul>
           </div>
+          <a href="https://www.instagram.com/maeelashes/" target="_blank">
+            <button class="landing__desc--btn book-now-btn">Book Now</button>
+          </a>
         </div>
       </div>
     </section>
@@ -120,17 +133,29 @@
       </div>
     </section>
     <section id="contact">
-      <div class="container">
+      <div class="contact__container container">
         <div class="contact__desc">
-          <h1 class="contact__desc--heading"></h1>
+          <h1 class="contact__desc--heading">Contact Us</h1>
           <p class="contact__desc--text">
             If you have any questions or comments, please contact us below:
           </p>
         </div>
         <div class="contact__info">
-          <div class="contact__details"></div>
-          <div class="contact__address"></div>
-          <div class="contact__hours"></div>
+          <div class="contact__details">
+            <h1>Contact Details</h1>
+            <p>Phone: 0412345678</p>
+            <p>E-mail: mae@lashes.com</p>
+            <p>Instagram: maeelashes</p>
+          </div>
+          <div class="contact__address">
+            <h1>Location</h1>
+            <p>Lightsview Area - address to be disclosed after booking</p>
+          </div>
+          <div class="contact__hours">
+            <h1>Trading Hours</h1>
+            <p>Weekdays: N/A</p>
+            <p>Weekends: 8am - 8pm</p>
+          </div>
         </div>
       </div>
     </section>

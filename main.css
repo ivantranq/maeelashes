@@ -163,6 +163,7 @@ ABOUT US
 
 #about {
   height: auto;
+  padding-top: 4rem;
 }
 
 .about__desc--heading {
@@ -216,11 +217,112 @@ SERVICES
 
 */
 
+#services {
+  padding-top: 4rem;
+}
 
+.services__container {
+  display: flex;
+}
 
+.services__img--wrapper {
+  height: 500px;
+  padding: 8px;
+  border: 1px solid #99621E;
+}
+
+.services__img {
+  height: 100%;
+}
+
+.services__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .services__desc--heading {
   font-size: 48px;
 }
 .services__desc--info {
   display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.services__list {
+  margin-right: 32px;
+}
+
+
+.services__list li,
+.services__price li {
+  font-size: 20px;
+}
+
+/* 
+
+CONTACT
+
+*/
+
+#contact {
+  padding-top: 3rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__desc {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.contact__desc--heading,
+.contact__details h1,
+.contact__address h1,
+.contact__hours h1 {
+  margin-bottom: 12px;
+}
+.contact__details,
+.contact__address,
+.contact__hours {
+  width: calc(100% / 3);
+}
+
+.contact__details h1,
+.contact__address h1,
+.contact__hours h1 {
+  font-size: 40px;
+}
+
+.contact__desc--heading {
+  font-size: 48px;
+}
+
+.contact__desc--text,
+.contact__details P,
+.contact__address P,
+.contact__hours P {
+  font-size: 24px;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* 
+
+MAP
+
+*/
+
+.google-map {
+  width: 100%;
 }
