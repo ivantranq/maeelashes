@@ -23,8 +23,12 @@
             </li>
             <li class="navbar__link"><a href="#about">About</a></li>
             <li class="navbar__link"><a href="#services">Services</a></li>
-            <li class="navbar__link"><a href="#booking">Booking</a></li>
             <li class="navbar__link"><a href="#contact">Contact</a></li>
+            <li class="navbar__link">
+              <a href="https://www.instagram.com/maeelashes/" target="_blank"
+                >Instagram</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -33,6 +37,7 @@
           <div class="landing__info">
             <figure class="landing__img--wrapper">
               <img
+                loading="lazy"
                 src="./assets/landing__img--compressed.jpg"
                 alt=""
                 class="landing__img"
@@ -75,6 +80,7 @@
           <div class="about__desc--imgs">
             <figure class="about__img--wrapper">
               <img
+                loading="lazy"
                 class="about__img about__img--1"
                 src="./assets/about__img-1.jpg"
                 alt=""
@@ -82,6 +88,7 @@
             </figure>
             <figure class="about__img--wrapper">
               <img
+                loading="lazy"
                 class="about__img about__img--2"
                 src="./assets/about__img-2.jpg"
                 alt=""
@@ -94,8 +101,14 @@
     <section id="services">
       <div class="container services__container">
         <figure class="services__img--wrapper">
-          <img class="services__img" src="./assets/services__img.jpg" alt="" />
           <img
+            loading="lazy"
+            class="services__img"
+            src="./assets/services__img.jpg"
+            alt=""
+          />
+          <img
+            loading="lazy"
             src="./assets/services__img--2.jpg"
             alt=""
             class="services__img"
@@ -123,7 +136,7 @@
         </div>
       </div>
     </section>
-    <section id="booking">
+    <!-- <section id="booking">
       <div class="container">
         <div class="booking__desc">
           <h1 class="booking__desc--heading">Book an appointment with us!</h1>
@@ -131,7 +144,7 @@
           <button class="booking__desc--button">Book an appointment</button>
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="contact">
       <div class="contact__container container">
         <div class="contact__desc">
@@ -145,7 +158,7 @@
             <h1>Contact Details</h1>
             <p>Phone: 0412345678</p>
             <p>E-mail: mae@lashes.com</p>
-            <p>Instagram: maeelashes</p>
+            <p>Instagram: @maeelashes</p>
           </div>
           <div class="contact__address">
             <h1>Location</h1>
@@ -162,6 +175,7 @@
     <section id="map">
       <div class="container">
         <iframe
+          loading="lazy"
           class="google-map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6547.504936265187!2d138.6232964629811!3d-34.862446548267194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0c9fbda2b8dbb%3A0x9b105084208bdef3!2sLightsview%20SA%205085!5e0!3m2!1sen!2sau!4v1661908380571!5m2!1sen!2sau"
           width="600"
@@ -173,5 +187,24 @@
         ></iframe>
       </div>
     </section>
+    <footer id="footer">
+      <div class="footer__container">
+        <figure class="logo__img--wrapper"></figure>
+        <ul class="footer__list">
+          <li class="footer__link">
+            <a href=""> Home </a>
+          </li>
+          <li class="footer__link"><a href="#about">About</a></li>
+          <li class="footer__link"><a href="#services">Services</a></li>
+          <li class="footer__link"><a href="#contact">Contact</a></li>
+          <li class="footer__link">
+            <a href="https://www.instagram.com/maeelashes/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+        <p class="copyright">&copy; 2022, All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

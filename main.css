@@ -323,6 +323,52 @@ MAP
 
 */
 
+#map {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
 .google-map {
   width: 100%;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+
+#footer {
+  background-color: #343434;
+  padding: 24px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.footer__link {
+  font-size: 20px;
+  color: white;
+}
+
+.footer__link:not(:last-child) {
+  margin-right: 64px;
+}
+
+.copyright {
+  color: gray;
 }
