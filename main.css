@@ -6,7 +6,7 @@
 
 
 .container {
-  width: 1100px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding: 24px;
@@ -17,7 +17,7 @@
 }
 
 section:nth-child(1){
-  background-color: #FFF4EC;
+  background-color: #F9E8FD;
 }
 
 /* section:nth-child(even) {
@@ -43,8 +43,10 @@ NAVBAR
 .navbar {
   background-color: inherit;
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 99;
+  height: 4rem;
 }
 
 .navbar__container {
@@ -55,8 +57,16 @@ NAVBAR
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: 100%;
   z-index: 99;
+}
+
+.logo__img--wrapper {
+  height: 100%;
+}
+
+.logo__img {
+  height: 100%;
 }
 
 .navbar__list {
@@ -78,34 +88,41 @@ LANDING PAGE
 
 #home {
   height: 100vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
-.landing {
+/* .landing {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+
+.landing {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 4rem);
+}
+
+.about__container {
+  display: flex;
+  align-items: center;
 }
 
 .landing__info {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .landing__img--wrapper {
-  height: 620px;
   width: 40%;
   border: 1px solid #99621E;
-  position: relative
 }
 
 .landing__img {
-  /* height: 100%; */
   width: 100%;
-  position: absolute;
-  top: 8px;
-  left: -8px;
 }
 
 .landing__desc {
@@ -203,6 +220,7 @@ ABOUT US
   position: absolute;
   top: 8px;
   left: 8px;
+  transform: rotate(90deg);
 }
 
 .about__img--2 {
