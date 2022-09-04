@@ -600,6 +600,7 @@ FOOTER
   .landing__img--wrapper {
     height: 60%;
     width: 100%;
+    animation: fade-up 550ms 600ms backwards !important;
   }
 
   .landing__desc {
@@ -612,6 +613,11 @@ FOOTER
   .landing__desc--para {
     margin-bottom: 0;
     margin-top: 12px;
+    animation: fade-up 650ms 600ms backwards;
+  }
+
+  .landing__desc--heading {
+    animation: fade-up 750ms 600ms backwards;
   }
 
   .landing__desc--btns {
