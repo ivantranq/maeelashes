@@ -125,6 +125,7 @@ NAVBAR
 
 .navbar__burger-menu {
   display: none;
+  color: #191213;
 }
 
 /* 
@@ -454,6 +455,8 @@ FOOTER
     width: 0;
   }
 
+  
+
   /* 
   
   NAVBAR
@@ -587,6 +590,9 @@ FOOTER
 }
 
 @media (max-width: 458px){
+  .header {
+    font-size: 48px;
+  }
   /* 
   
   LANDING
