@@ -6,7 +6,7 @@
     <title>MAEE LASHES</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js" defer></script>
+    <script src="index.js" defer></script>
     <script
       src="https://kit.fontawesome.com/ccf078b125.js"
       crossorigin="anonymous"
@@ -17,17 +17,48 @@
       <nav class="navbar">
         <div class="navbar__container">
           <figure class="logo__img--wrapper">
-            <img src="./assets/maee-lashes__logo.png" alt="" class="logo__img">
+            <img
+              src="./assets/maee-lashes__logo.png"
+              alt=""
+              class="logo__img"
+            />
           </figure>
+          <button class="navbar__burger-menu" id="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
           <ul class="navbar__list">
             <li class="navbar__link">
-              <a href=""> Home </a>
+              <a class="link__hover-effect link__hover-effect--black" href="">
+                Home
+              </a>
             </li>
-            <li class="navbar__link"><a href="#about">About</a></li>
-            <li class="navbar__link"><a href="#services">Services</a></li>
-            <li class="navbar__link"><a href="#contact">Contact</a></li>
             <li class="navbar__link">
-              <a href="https://www.instagram.com/maeelashes/" target="_blank"
+              <a
+                class="link__hover-effect link__hover-effect--black"
+                href="#about"
+                >About</a
+              >
+            </li>
+
+            <li class="navbar__link">
+              <a
+                class="link__hover-effect link__hover-effect--black"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="navbar__link">
+              <a
+                class="link__hover-effect link__hover-effect--black"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+            <li class="navbar__link">
+              <a
+                class="link__hover-effect link__hover-effect--black"
+                href="https://www.instagram.com/maeelashes/"
+                target="_blank"
                 >Instagram</a
               >
             </li>
@@ -102,7 +133,7 @@
     </section>
     <section id="services">
       <div class="container services__container">
-        <figure class="services__img--wrapper">
+        <!-- <figure class="services__img--wrapper">
           <img
             loading="lazy"
             class="services__img"
@@ -115,10 +146,10 @@
             alt=""
             class="services__img"
           />
-        </figure>
+        </figure> -->
         <div class="services__desc">
           <h1 class="services__desc--heading">Our Services</h1>
-          <div class="services__desc--info">
+          <!-- <div class="services__desc--info">
             <ul class="services__list">
               <li>Volume Set</li>
               <li>Wispy Set</li>
@@ -131,6 +162,36 @@
               <li>$N/A</li>
               <li>$N/A</li>
             </ul>
+          </div> -->
+          <div class="services__desc--info">
+            <figure class="services__img--wrapper">
+              <img
+                src="./assets/services__hybrid-set.jpg"
+                alt=""
+                class="services__img"
+              />
+            </figure>
+            <figure class="services__img--wrapper">
+              <img
+                src="./assets/services__mega-set.jpg"
+                alt=""
+                class="services__img"
+              />
+            </figure>
+            <figure class="services__img--wrapper">
+              <img
+                src="./assets/services__volume-set.jpg"
+                alt=""
+                class="services__img"
+              />
+            </figure>
+            <figure class="services__img--wrapper">
+              <img
+                src="./assets/services__wispy-set.jpg"
+                alt=""
+                class="services__img"
+              />
+            </figure>
           </div>
           <a href="https://www.instagram.com/maeelashes/" target="_blank">
             <button class="landing__desc--btn book-now-btn">Book Now</button>
@@ -194,13 +255,36 @@
         <figure class="logo__img--wrapper"></figure>
         <ul class="footer__list">
           <li class="footer__link">
-            <a href=""> Home </a>
+            <a class="link__hover-effect link__hover-effect--white" href="">
+              Home
+            </a>
           </li>
-          <li class="footer__link"><a href="#about">About</a></li>
-          <li class="footer__link"><a href="#services">Services</a></li>
-          <li class="footer__link"><a href="#contact">Contact</a></li>
           <li class="footer__link">
-            <a href="https://www.instagram.com/maeelashes/" target="_blank"
+            <a
+              class="link__hover-effect link__hover-effect--white"
+              href="#about"
+              >About</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="link__hover-effect link__hover-effect--white"
+              href="#services"
+              >Services</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="link__hover-effect link__hover-effect--white"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+          <li class="footer__link">
+            <a
+              class="link__hover-effect link__hover-effect--white"
+              href="https://www.instagram.com/maeelashes/"
+              target="_blank"
               >Instagram</a
             >
           </li>
